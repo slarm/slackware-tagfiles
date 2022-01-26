@@ -55,7 +55,7 @@ libgpg-error:SKP
 libksba:SKP
 libmbim:SKP
 libmilter:SKP
-libmnl:SKP
+libmnl:ADD
 libndp:SKP
 libnetfilter_acct:SKP
 libnetfilter_conntrack:SKP

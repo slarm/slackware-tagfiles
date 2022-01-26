@@ -33,14 +33,14 @@ f2fs-tools:SKP
 file:ADD	  	
 findutils:ADD
 floppy:SKP
-gawk:SKP
+gawk:ADD
 genpower:SKP
 gettext:SKP
 glibc-zoneinfo:ADD
 gpm:SKP
 gptfdisk:ADD
 grep:ADD
-grub:ADD
+grub:SKP
 gzip:ADD
 haveged:SKP
 hdparm:SKP
@@ -50,7 +50,7 @@ infozip:ADD
 inih:SKP
 inotify-tools:SKP
 jfsutils:SKP
-kbd:SKP
+kbd:ADD
 kernel-firmware:ADD
 kernel-generic:ADD
 kernel-huge:ADD
@@ -64,7 +64,7 @@ libbytesize:SKP
 libcgroup:SKP
 libgudev:ADD
 libpwquality:ADD
-lilo:SKP
+lilo:ADD
 logrotate:ADD
 lrzip:SKP
 lvm2:SKP
@@ -80,7 +80,7 @@ mtx:SKP
 ncompress:SKP
 ndctl:SKP
 ntfs-3g:SKP
-nvi:SKP
+nvi:ADD
 openssl-solibs:ADD
 os-prober:SKP
 pam:ADD

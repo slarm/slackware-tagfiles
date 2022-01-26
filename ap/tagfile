@@ -61,7 +61,7 @@ rpm:SKP
 rzip:SKP
 sc:SKP
 sc-im:SKP
-screen:SKP
+screen:ADD
 seejpeg:SKP
 slackpkg:ADD
 soma:SKP
@@ -72,11 +72,11 @@ sudo:SKP
 sysstat:SKP
 terminus-font:SKP
 texinfo:SKP
-tmux:ADD
+tmux:SKP
 undervolt:SKP
 usbmuxd:SKP
 vbetool:SKP
-vim:ADD
+vim:SKP
 vorbis-tools:SKP
 xfsdump:SKP
 xorriso:SKP

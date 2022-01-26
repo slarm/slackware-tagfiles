@@ -225,7 +225,7 @@ libssh2:SKP
 libtasn1:SKP
 libtheora:SKP
 libtiff:SKP
-libunistring:SKP
+libunistring:ADD
 libunwind:SKP
 liburing:SKP
 libusb:SKP
