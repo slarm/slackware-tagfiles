@@ -24,6 +24,12 @@ cd /opt/slackware64 && find ./ -type d -mindepth 1 -maxdepth 1 | while read dir;
     done
 done
 ```
+You might want to rename isolinux to syslinux if you get an error while trying to boot from the iso:
+```bash
+ mv isolinux/isolinux.bin isolinux/syslinux.bin
+ mv isolinux/isolinux.cfg isolinux/syslinux.cfg
+ mv isolinux syslinux
+ ```
 
 Create the iso:
 ```bash
