@@ -9,7 +9,7 @@ You would probably need to modify the tagfiles if you want to run anything else 
 
 rsync the desired Slackware release:
 ```bash
-rsync rsync://ftp.osuosl.org/slackware/slackware64-current/ /opt/slackware64/
+rsync -avzh rsync://ftp.osuosl.org/slackware/slackware64-current/ /opt/slackware64/
 ```
 
 Replace the tagfiles with the ones in this repo.
