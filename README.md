@@ -16,7 +16,7 @@ Replace the tagfiles with the ones in this repo.
 
 Optionally, delete all nlot-to-be installed packages. This can be done something like:
 ```bash
-cd /opt/slackware64 && find ./ -type d -mindepth 1 -maxdepth 1 | while read dir; do
+cd /opt/slackware64/slackware64 && find ./ -type d -mindepth 1 -maxdepth 1 | while read dir; do
     cat $dir/tagfile | while read pkg; do
         if [[ $pkg =~ (.+)?:SKP ]]; then
             rm -v $dir/"${BASH_REMATCH[1]}"*
