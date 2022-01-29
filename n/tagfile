@@ -15,7 +15,7 @@ cifs-utils:SKP
 conntrack-tools:SKP
 crda:SKP
 curl:ADD
-cyrus-sasl:SKP
+cyrus-sasl:ADD
 daemon:SKP
 dehydrated:SKP
 dhcp:SKP
@@ -98,7 +98,7 @@ newspost:SKP
 nfacct:SKP
 nfs-utils:SKP
 nftables:SKP
-nghttp2:SKP
+nghttp2:ADD
 nmap:SKP
 nn:SKP
 npth:SKP
@@ -143,8 +143,8 @@ ulogd:SKP
 uucp:SKP
 vlan:SKP
 vsftpd:SKP
-wget:SKP
-wget2:ADD
+wget:ADD
+wget2:SKP
 whois:SKP
 wireguard-tools:SKP
 wireless_tools:SKP

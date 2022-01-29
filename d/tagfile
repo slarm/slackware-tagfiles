@@ -2,7 +2,7 @@ Cython:SKP
 autoconf:SKP
 autoconf-archive:SKP
 automake:SKP
-binutils:SKP
+binutils:ADD
 bison:SKP
 ccache:SKP
 check:SKP

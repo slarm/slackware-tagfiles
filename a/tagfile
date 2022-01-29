@@ -10,7 +10,7 @@ bin:ADD
 btrfs-progs:SKP
 bzip2:SKP
 coreutils:ADD
-cpio:SKP
+cpio:ADD
 cpufrequtils:SKP
 cracklib:ADD
 cryptsetup:SKP

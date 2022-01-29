@@ -30,7 +30,7 @@ atkmm:SKP
 audiofile:SKP
 babl:SKP
 boost:SKP
-brotli:SKP
+brotli:ADD
 cairo:SKP
 cairomm:SKP
 cfitsio:SKP
