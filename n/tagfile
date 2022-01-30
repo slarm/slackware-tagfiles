@@ -28,7 +28,7 @@ epic5:SKP
 ethtool:SKP
 fetchmail:SKP
 getmail:SKP
-gnupg:SKP
+gnupg:ADD
 gnupg2:ADD
 gnutls:ADD
 gpa:SKP

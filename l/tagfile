@@ -261,7 +261,7 @@ mm:SKP
 mozilla-nss:SKP
 mozjs78:SKP
 mpfr:SKP
-ncurses:SKP
+ncurses:ADD
 neon:SKP
 netpbm:SKP
 newt:SKP
