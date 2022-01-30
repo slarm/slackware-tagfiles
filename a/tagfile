@@ -8,7 +8,7 @@ attr:ADD
 bash:ADD
 bin:ADD
 btrfs-progs:SKP
-bzip2:SKP
+bzip2:ADD
 coreutils:ADD
 cpio:ADD
 cpufrequtils:SKP

@@ -47,7 +47,7 @@ oprofile:SKP
 p2c:SKP
 parallel:SKP
 patchelf:SKP
-perl:SKP
+perl:ADD
 pkg-config:SKP
 pmake:SKP
 poke:SKP
