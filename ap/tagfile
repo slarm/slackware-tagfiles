@@ -23,7 +23,7 @@ flac:SKP
 ghostscript:SKP
 ghostscript-fonts-std:SKP
 gphoto2:SKP
-groff:SKP
+groff:ADD
 gutenprint:SKP
 hplip:SKP
 htop:ADD
