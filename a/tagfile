@@ -108,7 +108,7 @@ sysvinit-scripts:ADD
 tar:ADD
 tcsh:SKP
 time:ADD
-tree:SKP
+tree:ADD
 udisks:SKP
 udisks2:SKP
 unarj:SKP
