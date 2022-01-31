@@ -1,9 +1,9 @@
 # slackware-tagfiles
 Tag files for a custom Slackware install.
 
-The use case of this setup is to run a somewhat minimal installation of Slackware on a low-end box. These tagfiles include base requirements, basic network utilities and some useful tools such as screen.
+The use case of this setup is to run a customized installation of Slackware on a low-end box, serving my own purposes. These tagfiles include base requirements, basic network utilities and some useful tools such as screen.
 
-You would probably need to modify the tagfiles if you want to run anything else than ext4 without LVM.
+You would probably need to modify the tagfiles if you want to run anything else than ext4 (or if you want to use LVM and such).
 
 ## Build a custom ISO
 
