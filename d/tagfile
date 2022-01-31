@@ -24,7 +24,7 @@ gcc-go:SKP
 gcc-objc:SKP
 gdb:SKP
 gettext-tools:SKP
-git:SKP
+git:ADD
 gnucobol:SKP
 gperf:SKP
 guile:SKP
