@@ -14,7 +14,7 @@ cpio:ADD
 cpufrequtils:SKP
 cracklib:ADD
 cryptsetup:SKP
-dbus:SKP
+dbus:ADD
 dcron:ADD
 devs:ADD
 dialog:ADD

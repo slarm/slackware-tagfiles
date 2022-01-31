@@ -191,7 +191,7 @@ libnice:SKP
 libnih:SKP
 libnjb:SKP
 libnl:SKP
-libnl3:SKP
+libnl3:ADD
 libnotify:SKP
 libnsl:SKP
 libnss_nis:SKP
@@ -200,7 +200,7 @@ libogg:SKP
 liboggz:SKP
 liboil:SKP
 libopusenc:SKP
-libpcap:SKP
+libpcap:ADD
 libplist:SKP
 libpng:SKP
 libproxy:SKP
