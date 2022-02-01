@@ -14,7 +14,7 @@ rsync -avzh rsync://ftp.osuosl.org/slackware/slackware64-current/ /opt/slackware
 
 Replace the tagfiles with the ones in this repo.
 
-Optionally, delete all nlot-to-be installed packages. This can be done something like:
+Optionally, delete all not-to-be installed packages. This can be done with something like:
 ```bash
 cd /opt/slackware64/slackware64 && find ./ -type d -mindepth 1 -maxdepth 1 | while read dir; do
     cat $dir/tagfile | while read pkg; do
