@@ -19,7 +19,7 @@ Optionally, delete all not-to-be installed packages. This can be done with somet
 cd /opt/slackware64/slackware64 && find ./ -type d -mindepth 1 -maxdepth 1 | while read dir; do
     cat $dir/tagfile | while read pkg; do
         if [[ $pkg =~ (.+)?:SKP ]]; then
-            rm -v $dir/"${BASH_REMATCH[1]}-"*
+            rm -v $dir/"${BASH_REMATCH[1]}"-*
         fi
     done
 done
