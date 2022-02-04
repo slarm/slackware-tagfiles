@@ -33,5 +33,5 @@ You might want to rename isolinux to syslinux if you get an error while trying t
 
 Create the iso:
 ```bash
-mkisofs -o /opt/slackware-15-current.iso -R -J -V "Slackware Install"  -x ./extra -x ./patches -x ./source -x ./testing -x ./usb-and-pxe-installers -b syslinux/syslinux.bin -c syslinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -hide-rr-moved -hide-joliet-trans-tbl -sort syslinux/iso.sort -v -d -N -A "Slackware 15 minimal.slarm" .
+mkisofs -o /opt/slackware-15.iso -R -J -V "Slackware Install"  -x ./extra -x ./patches -x ./source -x ./testing -x ./usb-and-pxe-installers -b syslinux/syslinux.bin -c syslinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -hide-rr-moved -hide-joliet-trans-tbl -sort syslinux/iso.sort -v -d -N -A "Slackware 15 custom.slarm" .
 ```
