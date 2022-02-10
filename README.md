@@ -3,7 +3,8 @@ Tag files for a custom Slackware install.
 
 The use case of this setup is to run a customized installation of Slackware on a low-end box, serving my own purposes. These tagfiles include base requirements, basic network utilities and some useful tools such as screen.
 
-You would probably need to modify the tagfiles if you want to run anything else than ext4 (or if you want to use LVM and such).
+Modify the tagfiles as needed. My setup supports ext4 on LUKS + LVM.
+
 
 ## Build a custom ISO
 
@@ -34,4 +35,108 @@ You might want to rename isolinux to syslinux if you get an error while trying t
 Create the iso:
 ```bash
 mkisofs -o /opt/slackware-15.iso -R -J -V "Slackware Install"  -x ./extra -x ./patches -x ./source -x ./testing -x ./usb-and-pxe-installers -b syslinux/syslinux.bin -c syslinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -hide-rr-moved -hide-joliet-trans-tbl -sort syslinux/iso.sort -v -d -N -A "Slackware 15 custom.slarm" .
+```
+
+## Full package list
+
+```
+a_base
+a: aaa_glibc-solibs
+a: aaa_libraries
+a: aaa_terminfo	
+a: acl
+a: attr
+a: bash
+a: bin
+a: bzip2
+a: coreutils
+a: cpio
+a: cracklib
+a: dbus
+a: dcron
+a: devs
+a: dialog
+a: e2fsprogs
+a: elogind
+a: etc
+a: eudev
+a: exfatprogs
+a: file	  	
+a: findutils
+a: gawk
+a: glibc-zoneinfo
+a: gptfdisk
+a: grep
+a: grub
+a: gzip
+a: hostname
+a: infozip
+a: kbd
+a: kernel-firmware
+a: kernel-generic
+a: kernel-huge
+a: kernel-modules
+a: kmod
+a: less
+a: libgudev
+a: libpwquality
+a: logrotate
+a: mkinitrd
+a: mlocate
+a: nvi
+a: openssl-solibs
+a: pam
+a: pkgtools
+a: procps-ng
+a: rpm2tgz
+a: sed
+a: shadow
+a: sharutils
+a: sysklogd
+a: syslinux
+a: sysvinit
+a: sysvinit-functions
+a: sysvinit-scripts
+a: tar
+a: time
+a: tree
+a: utempter
+a: util-linux
+a: which
+a: xz
+ap: groff
+ap: htop
+ap: lsof
+ap: man-db
+ap: man-pages
+ap: neofetch
+ap: screen
+ap: slackpkg
+d: binutils
+d: git
+d: perl
+l: brotli
+l: libnl3
+l: libpcap
+l: libseccomp
+l: libunistring
+l: ncurses
+n: ca-certificates
+n: curl
+n: cyrus-sasl
+n: dhcpcd
+n: gnupg
+n: gnupg2
+n: gnutls
+n: iproute2
+n: iptables
+n: iputils
+n: libmnl
+n: lynx
+n: net-tools
+n: network-scripts
+n: nghttp2
+n: openssh
+n: openssl
+n: wget
 ```
