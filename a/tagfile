@@ -40,7 +40,7 @@ glibc-zoneinfo:ADD
 gpm:SKP
 gptfdisk:ADD
 grep:ADD
-grub:SKP
+grub:ADD
 gzip:ADD
 haveged:SKP
 hdparm:SKP
@@ -64,7 +64,7 @@ libbytesize:SKP
 libcgroup:SKP
 libgudev:ADD
 libpwquality:ADD
-lilo:ADD
+lilo:SKP
 logrotate:ADD
 lrzip:SKP
 lvm2:SKP
