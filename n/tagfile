@@ -68,7 +68,7 @@ libnftnl:SKP
 libqmi:SKP
 libtirpc:SKP
 links:SKP
-lynx:SKP
+lynx:ADD
 mcabber:SKP
 metamail:SKP
 mobile-broadband-provider-info:SKP
